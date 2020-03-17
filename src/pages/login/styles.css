@@ -1,0 +1,135 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eeecdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 34.27734375vw;
+  /* margin-left: 32.71484375vw;
+  margin-right: 33.0078125vw; */
+}
+
+.logo_home {
+  width: 28.80859375vw;
+  object-fit: contain;
+  margin-bottom: 6.54296875vw;
+}
+
+.BEM-VINDO-AO-EMPRESA {
+  width: 18.1875vw;
+  font-family: Roboto;
+  font-size: 12.8px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  text-align: center;
+  margin-bottom: 2.01171875vh;
+  color: #383743;
+}
+
+.Credenciais-informad {
+  width: 32.421875vw;
+  height: 2.34375vh;
+  font-family: Roboto;
+  font-size: 6.1px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.95;
+  letter-spacing: -0.09px;
+  text-align: center;
+  color: #ff0f44;
+}
+
+.subtitle {
+  /* width: 175.5px; */
+  width: 34.94140625vw;
+  height: 25px;
+  font-family: Roboto;
+  font-size: 8.5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.48;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #383743;
+}
+
+.container-custom-input {
+  display: flex;
+  flex-direction: row;
+  width: 34.27734375vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-input {
+  /* position: relative;
+  right: 2rem;
+  text-indent: 2rem; */
+  width: 34.27734375vw;
+  
+  /* font-size: 9px !important; */
+  /* height: 10px !important; */
+  /* line-height: 10px !important; */
+}
+
+.custom-icon {
+  width: 16px;
+  object-fit: contain;
+}
+
+.submit-btn {
+  width: 31.640625vw;
+  border-radius: 1.8px;
+  text-transform: uppercase;
+
+  font-family: Roboto;
+  font-size: 9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+
+  background-color: #57bbbc;
+}
+
+.input-group-text {
+  border: none;
+  border-radius: 0px;
+  padding: 0px;
+  background-color: #eeecdb;
+  border-bottom: solid thin gray;
+}
+
+.input-group {
+  margin: 0.5rem 0px;
+}
+
+input.form-control {
+  border: none;
+  border-radius: 0px;
+  font-size: 9px;
+  background-color: #eeecdb;
+  border-bottom: solid thin gray;
+}
+
+input.form-control:focus {
+  background-color: #eeecdb !important;
+  box-shadow: none;
+  border-color: gray;
+}
