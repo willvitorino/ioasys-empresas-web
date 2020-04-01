@@ -52,6 +52,10 @@
   color: #ff0f44;
 }
 
+.hasError {
+  border-bottom-color: #ff0f44 !important;
+}
+
 .subtitle {
   /* width: 175.5px; */
   width: 34.94140625vw;
@@ -76,14 +80,7 @@
 }
 
 .custom-input {
-  /* position: relative;
-  right: 2rem;
-  text-indent: 2rem; */
   width: 34.27734375vw;
-  
-  /* font-size: 9px !important; */
-  /* height: 10px !important; */
-  /* line-height: 10px !important; */
 }
 
 .custom-icon {
@@ -132,4 +129,15 @@ input.form-control:focus {
   background-color: #eeecdb !important;
   box-shadow: none;
   border-color: gray;
+}
+
+.Rectangle {
+  width: 3.125vw;
+  height: 3.125vw;
+}
+
+.red-circle {
+  width: 2.24609375vw;
+  height: 2.34375vw;
+  background-color: #ff0f44;
 }
